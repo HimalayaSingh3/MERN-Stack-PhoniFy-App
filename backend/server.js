@@ -16,7 +16,7 @@ app.use(express.json()); // Parse JSON requests
 app.use(cookieParser()); // Cookie support
 app.use(
   cors({
-    origin: ["http://localhost:5173"], // Allow frontend requests
+    origin: ["https://coruscating-kringle-076523.netlify.app"], // Allow frontend requests
     credentials: true,
   })
 );
