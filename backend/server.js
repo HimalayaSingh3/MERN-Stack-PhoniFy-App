@@ -16,7 +16,7 @@ app.use(express.json()); // Parse JSON requests
 app.use(cookieParser()); // Cookie support
 app.use(
   cors({
-    origin: ["https://coruscating-kringle-076523.netlify.app"], // Allow frontend requests
+    origin: ["https://fanciful-kashata-bfc95f.netlify.app"], // Allow frontend requests
     credentials: true,
   })
 );
